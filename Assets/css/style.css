@@ -1,0 +1,47 @@
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+main {
+    padding-top: 100px;
+}
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+img {
+    display: block;
+}
+header {
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    border-bottom: 10px solid darkblue;
+    background-color: rgb(250, 242, 135);
+}
+.Box {
+    width: 600px;
+    height: 600px;
+    margin: 20px auto;
+    border: 15px solid black;
+}
+#relative-box {
+    margin-top: 0px;
+    position: relative;
+    margin-left: 200px;
+}
+.Absolute-Box {
+    width: 600px;
+    height: 600px;
+    margin: 20px auto;
+    border: 15px solid blue;
+}
+#absolute-box {
+    position: absolute;
+    margin-left: 822px;
+    top: 60%;
+}
+
